@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="
+    Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>髪の毛カウンター</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+        <button id="plus" class=" button is-primary is-size-1">プラス</button>
+        <button id="minus" class="button is-primary is-size-1">マイナス</button>
+        <p id="test" class="is-primary is-size-1">0本目</p>
+        <input id="unit_price" class="is-size-3" placeholder="1本あたりの単価を入力" type="number">
+        <p id="money" class="is-size-2" >0円</p>
+        <p id="hair" class="is-size-3"></p>
+        <p id="total" class="is-size-3"></p>
+        <p id="time" class="is-size-3"></p>
+        <p class="button is-primary is-size-3" onclick="finish()">終了</p>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
